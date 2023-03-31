@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Mendeleïev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<style>
+
+h1 {
+    position: absolute;
+    font-size: 2em;
+    margin-left: 250px;
+    margin-top: 50px;
+    text-transform: uppercase; 
+    font-family: 'Lato', sans-serif;
+
+}
+
+.img1 {
+    position: absolute;
+    height: 160px;
+    width: 480px;
+}
+
+.img2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+table {
+    width: auto;
+    box-shadow: 0 5px 50px #a1a1a1;
+    border: 30px solid rgb(255, 255, 255);
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+td {
+    padding: 28px;
+    margin: 10px;
+    border: 1px solid #000000;
+}
+
+.td {
+    border: 1px solid white;
+}
+
+.color1 {
+    background-color: rgb(202, 235, 127);
+}
+
+.color2 {
+    background-color: rgb(252, 113, 113);
+}
+
+.color3 {
+    background-color: rgb(255, 224, 176);
+}
+
+.color4 {
+    background-color: pink;
+}
+
+.color5 {
+    background-color: plum;
+}
+
+.color6 {
+    background-color: palevioletred;
+}
+
+.color7 {
+    background-color: rgb(216, 228, 238);
+}
+
+.color8 { 
+    background-color: rgb(196, 196, 196);
+}
+
+.color9 {
+    background-color: rgb(179, 255, 251);
+}
+
+.color10 {
+    background-color:khaki;
+}
+
+.color11 {
+    background-color: rgb(130, 211, 161);
+}
+
+
+.container {
+    position: relative;
+    height: 100%;
+    
+}
+
+.numeroa {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    font-size: 10px;
+}
+
+.massea {
+    position: absolute;
+    top: 33px;
+    left: -25px;
+    font-size: 10px;
+}
+
+
+</style>
+<body>
+
+<h1>Tableau périodique des éléments</h1>
+
+
+<table contenteditable="true">
+
+    <tr class="tr1">
+
+        <td class="color1">
+            <div class="container">H
+                <div class="numeroa">1</div>
+                <div class="massea">1,007975</div>
+            </div>
+        </td>
+        <td class="td"></td>
+        <td class="td"><img src="img1.png" class="img1"/></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"><img src="img2.png" class="img2"/></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="color9">
+            <div class="container">He
+                <div class="numeroa">2</div>
+                <div class="massea">4,002602</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr2">
+        <td class="color2">
+            <div class="container">Li
+                <div class="numeroa">3</div>
+                <div class="massea">6,9395</div>
+            </div>
+        </td>
+            
+        <td class="color3">
+            <div class="container">Be
+                <div class="numeroa">4</div>
+                <div class="massea">9,0121831</div>
+            </div>
+        </td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="color10">
+            <div class="container">B
+                <div class="numeroa">5</div>
+                <div class="massea">10,8135</div>
+            </div>
+        </td>
+        <td class="color11">
+            <div class="container">Li
+                <div class="numeroa">3</div>
+                <div class="massea">6,9395</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">N
+                <div class="numeroa">7</div>
+                <div class="massea">14,006855</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">O
+                <div class="numeroa">8</div>
+                <div class="massea">15,99940</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">F
+                <div class="numeroa">9</div>
+                <div class="massea">18,99840316</div>
+            </div>
+        </td>
+        <td class="color9">
+            <div class="container">Ne
+                <div class="numeroa">10</div>
+                <div class="massea">20,1797(6)</div>
+            </div>
+        </td>
+    </tr>
+
+
+    <tr class="tr3">
+        <td class="color2">
+            <div class="container">Na
+                <div class="numeroa">11</div>
+                <div class="massea">22,98976928</div>
+            </div>
+        </td>
+        <td class="color3">
+            <div class="container">Mg
+                <div class="numeroa">12</div>
+                <div class="massea">24,3055</div>
+            </div>
+        </td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="color8">
+            <div class="container">Al
+                <div class="numeroa">13</div>
+                <div class="massea">26,98155385</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">Si
+                <div class="numeroa">14</div>
+                <div class="massea">28,085(1)</div>
+            </div>
+        </td>
+        <td class="color11">
+            <div class="container">P
+                <div class="numeroa">15</div>
+                <div class="massea">30,97376200</div>
+            </div>
+        </td>
+        <td class="color11">
+            <div class="container">S
+                <div class="numeroa">16</div>
+                <div class="massea">32,0675</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">Cl
+                <div class="numeroa">17</div>
+                <div class="massea">35,4515</div>
+            </div>
+        </td>
+        <td class="color9">
+            <div class="container">Ar
+                <div class="numeroa">18</div>
+                <div class="massea">39,948(1)</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr4">
+        <td class="color2">
+            <div class="container">K
+                <div class="numeroa">19</div>
+                <div class="massea">39,0983</div>
+            </div>
+        </td>
+        <td class="color3">
+            <div class="container">Ca
+                <div class="numeroa">20</div>
+                <div class="massea">40,078(4)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Sc
+                <div class="numeroa">21</div>
+                <div class="massea">44,955909(5)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ti
+                <div class="numeroa">22</div>
+                <div class="massea">47,867(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">V
+                <div class="numeroa">23</div>
+                <div class="massea">50,9415(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Cr
+                <div class="numeroa">24</div>
+                <div class="massea">51,9961(6)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Mn
+                <div class="numeroa">25</div>
+                <div class="massea">54,938044</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Fe
+                <div class="numeroa">26</div>
+                <div class="massea">55,845(2)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Co
+                <div class="numeroa">27</div>
+                <div class="massea">58,933194</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ni
+                <div class="numeroa">28</div>
+                <div class="massea">58,6934(4)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Cu
+                <div class="numeroa">29</div>
+                <div class="massea">63,546(3)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Zn
+                <div class="numeroa">30</div>
+                <div class="massea">65,38(2)</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Ga
+                <div class="numeroa">31</div>
+                <div class="massea">69,723(1)</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">Ge
+                <div class="numeroa">32</div>
+                <div class="massea">72,630(8)</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">As
+                <div class="numeroa">33</div>
+                <div class="massea">74,921595</div>
+            </div>
+        </td>
+        <td class="color11">
+            <div class="container">Se
+                <div class="numeroa">34</div>
+                <div class="massea">79,971(8)</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">Br
+                <div class="numeroa">35</div>
+                <div class="massea">79,904</div>
+            </div>
+        </td>
+        <td class="color9">
+            <div class="container">36
+                <div class="numeroa">Kr</div>
+                <div class="massea">83,798(2)</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr5">
+        <td class="color2">
+            <div class="container">Rb
+                <div class="numeroa">37</div>
+                <div class="massea">39,0983(3)</div>
+            </div>
+        </td>
+        <td class="color3">
+            <div class="container">38
+                <div class="numeroa">Sr</div>
+                <div class="massea">87,62(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Y
+                <div class="numeroa">39</div>
+                <div class="massea">88,90584</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Zr
+                <div class="numeroa">40</div>
+                <div class="massea">91,224(2)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Nb
+                <div class="numeroa">41</div>
+                <div class="massea">92,90637</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Mo
+                <div class="numeroa">42</div>
+                <div class="massea">95,95(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Tc
+                <div class="numeroa">43</div>
+                <div class="massea">[98]</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ru
+                <div class="numeroa">44</div>
+                <div class="massea">101,07(2)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Rh
+                <div class="numeroa">45</div>
+                <div class="massea">102,90550</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Pd
+                <div class="numeroa">46</div>
+                <div class="massea">106,42(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ag
+                <div class="numeroa">47</div>
+                <div class="massea">107,8682(2)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Cd
+                <div class="numeroa">48</div>
+                <div class="massea">112,414(4)</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">In
+                <div class="numeroa">49</div>
+                <div class="massea">114,414(4)</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Sn
+                <div class="numeroa">50</div>
+                <div class="massea">118,710(7)</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">Sb
+                <div class="numeroa">51</div>
+                <div class="massea">121,760(1)</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">Te
+                <div class="numeroa">52</div>
+                <div class="massea">127,60(3)</div>
+            </div>
+        </td>
+        <td class="color1">
+            <div class="container">I
+                <div class="numeroa">53</div>
+                <div class="massea">126,90447</div>
+            </div>
+        </td>
+        <td class="color9">
+            <div class="container">Xe
+                <div class="numeroa">54</div>
+                <div class="massea">131,293(6)</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr6">
+        <td class="color2">
+            <div class="container">Cs
+                <div class="numeroa">55</div>
+                <div class="massea">132,905452</div>
+            </div>
+        </td>
+        <td class="color3">
+            <div class="container">Ba
+                <div class="numeroa">56</div>
+                <div class="massea">137,327(7)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Lu
+                <div class="numeroa">71</div>
+                <div class="massea">174,9668</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Hf
+                <div class="numeroa">72</div>
+                <div class="massea">1788,49(2)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ta
+                <div class="numeroa">73</div>
+                <div class="massea">180,94788</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">W
+                <div class="numeroa">74</div>
+                <div class="massea">183,84(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Re
+                <div class="numeroa">75</div>
+                <div class="massea">186,207(1)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Os
+                <div class="numeroa">76</div>
+                <div class="massea">190,23(3)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Ir
+                <div class="numeroa">77</div>
+                <div class="massea">192,217(3)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Pt
+                <div class="numeroa">78</div>
+                <div class="massea">195,084(9)</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Au
+                <div class="numeroa">79</div>
+                <div class="massea">196,966569</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Hg
+                <div class="numeroa">80</div>
+                <div class="massea">200,592(3)</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Tl
+                <div class="numeroa">81</div>
+                <div class="massea">204,3835</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Pb
+                <div class="numeroa">82</div>
+                <div class="massea">207,2(1)</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Bi
+                <div class="numeroa">83</div>
+                <div class="massea">208,98040</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Po
+                <div class="numeroa">84</div>
+                <div class="massea">209</div>
+            </div>
+        </td>
+        <td class="color10">
+            <div class="container">At
+                <div class="numeroa">85</div>
+                <div class="massea">210</div>
+            </div>
+        </td>
+        <td class="color9">
+            <div class="container">Rn
+                <div class="numeroa">86</div>
+                <div class="massea">131,293(6)</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr7">
+        <td class="color2">
+            <div class="container">Fr
+                <div class="numeroa">87</div>
+                <div class="massea">223</div>
+            </div>
+        </td>
+        <td class="color3">
+            <div class="container">Ra
+                <div class="numeroa">88</div>
+                <div class="massea">226</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Lr
+                <div class="numeroa">103</div>
+                <div class="massea">266</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Rf
+                <div class="numeroa">104</div>
+                <div class="massea">267</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Db
+                <div class="numeroa">105</div>
+                <div class="massea">268</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Sg
+                <div class="numeroa">106</div>
+                <div class="massea">269</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Bh
+                <div class="numeroa">107</div>
+                <div class="massea">270</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Hs
+                <div class="numeroa">108</div>
+                <div class="massea">277</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Mt
+                <div class="numeroa">109</div>
+                <div class="massea">278</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Ds
+                <div class="numeroa">110</div>
+                <div class="massea">281</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Rg
+                <div class="numeroa">111</div>
+                <div class="massea">282</div>
+            </div>
+        </td>
+        <td class="color4">
+            <div class="container">Cn
+                <div class="numeroa">112</div>
+                <div class="massea">285</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Nh
+                <div class="numeroa">113</div>
+                <div class="massea">286</div>
+            </div>
+        </td>
+        <td class="color8">
+            <div class="container">Fl
+                <div class="numeroa">114</div>
+                <div class="massea">289</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Mc
+                <div class="numeroa">115</div>
+                <div class="massea">289</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Lv
+                <div class="numeroa">116</div>
+                <div class="massea">293</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Ts
+                <div class="numeroa">117</div>
+                <div class="massea">294</div>
+            </div>
+        </td>
+        <td class="color7">
+            <div class="container">Og
+                <div class="numeroa">118</div>
+                <div class="massea">294</div>
+            </div>
+        </td>
+    </tr>
+
+    <tr class="tr8">
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="color5">
+            <div class="container">La
+                <div class="numeroa">57</div>
+                <div class="massea">138,90547</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Ce
+                <div class="numeroa">58</div>
+                <div class="massea">140,116(1)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Pr
+                <div class="numeroa">59</div>
+                <div class="massea">140,90766</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Nd
+                <div class="numeroa">60</div>
+                <div class="massea">144,242(3)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Pm
+                <div class="numeroa">61</div>
+                <div class="massea">145</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Sm
+                <div class="numeroa">62</div>
+                <div class="massea">150,36(2)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Eu
+                <div class="numeroa">63</div>
+                <div class="massea">151,964(1)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Gd
+                <div class="numeroa">64</div>
+                <div class="massea">157,25(3)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Td
+                <div class="numeroa">65</div>
+                <div class="massea">158,92535</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Dy
+                <div class="numeroa">66</div>
+                <div class="massea">162,500(1)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Ho
+                <div class="numeroa">67</div>
+                <div class="massea">164,93033</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Er
+                <div class="numeroa">68</div>
+                <div class="massea">167,259(3)</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Tm
+                <div class="numeroa">69</div>
+                <div class="massea">168,93422</div>
+            </div>
+        </td>
+        <td class="color5">
+            <div class="container">Yb
+                <div class="numeroa">70</div>
+                <div class="massea">173,045</div>
+            </div>
+        </td>
+        <td class="td"></td>
+        <td class="td"></td>
+    </tr>
+
+    <tr class="tr9">
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="color6">
+            <div class="container">Ac
+                <div class="numeroa">89</div>
+                <div class="massea">227</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Th
+                <div class="numeroa">90</div>
+                <div class="massea">232,0377</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Pa
+                <div class="numeroa">91</div>
+                <div class="massea">232,03588</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">U
+                <div class="numeroa">92</div>
+                <div class="massea">238,02891</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Np
+                <div class="numeroa">93</div>
+                <div class="massea">237</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Pu
+                <div class="numeroa">94</div>
+                <div class="massea">244</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Am
+                <div class="numeroa">95</div>
+                <div class="massea">243</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Cm
+                <div class="numeroa">96</div>
+                <div class="massea">247</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Bk
+                <div class="numeroa">97</div>
+                <div class="massea">247</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Cf
+                <div class="numeroa">98</div>
+                <div class="massea">251</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Es
+                <div class="numeroa">99</div>
+                <div class="massea">252</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Fm
+                <div class="numeroa">100</div>
+                <div class="massea">257</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">Md
+                <div class="numeroa">101</div>
+                <div class="massea">258</div>
+            </div>
+        </td>
+        <td class="color6">
+            <div class="container">No
+                <div class="numeroa">102</div>
+                <div class="massea">259</div>
+            </div>
+        </td>
+        <td class="td"></td>
+        <td class="td"></td>
+    </tr>
+    </table>
+
+</body>
+</html>
